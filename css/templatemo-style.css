@@ -174,8 +174,10 @@ bootstrap.min.css:5
 }
 
 .col-md-8 {
-	max-height: 720px;
+	max-height: 732px;
+	max-width: 100%;
     overflow: scroll;
+	background-color: #fff;
 }
 
 
@@ -213,7 +215,11 @@ bootstrap.min.css:5
 .parallax-content {
   width: 100%;
   min-height: 100vh;
+  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .baner-content {
@@ -222,6 +228,7 @@ bootstrap.min.css:5
   	text-align: center;
   	background-image: url(../img/banner_bg.jpg);
   	vertical-align: middle;
+	top: 0px;
 }
 
 .baner-content .text-content {
@@ -256,13 +263,17 @@ bootstrap.min.css:5
 	margin-top: 25px;
 }
 
+.ParallaxVideo{ 
+height: 900px;
+padding-bottom: 50px;
+padding-top: 50px; 
+}
 
-#about {
-	padding: 150px 0px;
-	background-image: url(../img/about-bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+.ParallaxVideo video { 
+min-width: 100%;
+position: fixed;
+top: 0;
+z-index: -999;
 }
 
 #about .service-item {
@@ -300,7 +311,9 @@ bootstrap.min.css:5
 	line-height: 30px;
 }
 
-
+.content-wrapper {
+	background-color: #fff;
+}
 
 .projects-holder .mix {
   display: none;
@@ -368,7 +381,7 @@ bootstrap.min.css:5
 
 #portfolio .section-heading p {
 	color: #fff;
-	padding-right: 70px;
+	padding-right: 30px;
 }
 
 
