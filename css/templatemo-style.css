@@ -228,7 +228,6 @@ bootstrap.min.css:5
   	text-align: center;
   	background-image: url(../img/banner_bg.jpg);
   	vertical-align: middle;
-	top: 0px;
 }
 
 .baner-content .text-content {
@@ -384,6 +383,11 @@ z-index: -999;
 	padding-right: 30px;
 }
 
+
+#portfolio .section-heading p {
+	color: #fff;
+	padding-right: 70px;
+}
 
 #testimonial {
 	background-color: #f7c552;
