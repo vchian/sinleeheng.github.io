@@ -293,6 +293,7 @@ bootstrap.min.css:5
 
 #about .service-text h3 {
 	text-align: justify;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	line-height: 28px;
 	font-size: 22px;
@@ -318,7 +319,7 @@ bootstrap.min.css:5
 }
 
 .projects-holder {
-	padding: 30px 15px 0px 15px;
+	padding: 10px 0px 10px 0px;
 }
 
 .filter-categories {;
@@ -326,7 +327,7 @@ bootstrap.min.css:5
 }
 
 .filter-categories ul li {
-  margin: 0px 10px 15px 0px;
+  margin: 10px 0px 10px 0px;
   display: block;
 }
 
@@ -334,7 +335,7 @@ bootstrap.min.css:5
   cursor: pointer;
   color: #fff;
   display: inline-block;
-  font-size: 15px;
+  font-size: 16px;
   text-transform: capitalize;
   font-weight: 500;
   left: 0.5px;
@@ -349,7 +350,7 @@ bootstrap.min.css:5
 }
 
 #portfolio .section-heading {
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-bottom: 200px;
 	background-color: #241F59;
 	height: 732px;
@@ -363,9 +364,19 @@ bootstrap.min.css:5
 
 #portfolio .section-heading h4 {
 	margin-top: 0px;
-	font-size: 20px;
+	font-size: 26px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 800;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#portfolio .section-heading h3 {
+	margin-top: 0px;
+	font-size: 23px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
 	color: #fff;
 	letter-spacing: 1px;
 }
@@ -379,13 +390,8 @@ bootstrap.min.css:5
 
 #portfolio .section-heading p {
 	color: #fff;
-	padding-right: 30px;
-}
-
-
-#portfolio .section-heading p {
-	color: #fff;
-	padding-right: 70px;
+	padding-right: 80px;
+	font-size: 16px;
 }
 
 .col-md-8 {
@@ -722,7 +728,7 @@ footer .logo a {
 }
 
 footer .logo a:hover {
-	color: #9F0;
+	color: #00BEED;
 }
 
 footer .location h3 {
