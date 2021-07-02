@@ -889,6 +889,11 @@ footer .connect-us ul li a:hover {
 	#contact-us .pop-button {
 	margin-bottom: 30px;
 }
+
+	.align-self-center {
+	text-align: center
+	}
+	
 	footer {
 		text-align: center;
 	}
