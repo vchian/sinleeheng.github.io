@@ -691,8 +691,6 @@ bootstrap.min.css:5
 }
 
 
-
-
 footer {
 	margin-top: -6px;
 	background-color: #262961;
@@ -708,7 +706,7 @@ footer .logo-ft {
 	margin-top: 10px;
 	text-decoration: none;
 	color: #fff!important;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 900;
 	text-transform: capitalize;
 	text-shadow: none;
@@ -737,14 +735,14 @@ footer .logo a:hover {
 	color: #00BEED;
 }
 
-footer .location h3 {
-	margin-top: 0px;
-	font-size: 12px;
-	font-weight: 500;
+footer .location h4 {
+	margin-top: 12px;
+	font-size: 18px;
+	font-weight: 600;
 	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	margin-bottom: 25px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
 }
 
 footer .location ul li {
@@ -753,30 +751,25 @@ footer .location ul li {
 	display: inline-block;
 	line-height: 24px;
 	letter-spacing: 0.5px;
-	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-footer .contact-info h3 {
-	margin-top: 0px;
-	font-size: 13px;
-	font-weight: 500;
+footer .contact-info h4 {
+	margin-top: 12px;
+	font-size: 18px;
+	font-weight: 600;
 	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	margin-bottom: 25px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
 }
 
 footer .contact-info ul li {
 	font-size: 15px;
 	color: #fff;
 	display: inline-block;
-	line-height: 13px;
-	letter-spacing: 0.5px;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	font-weight: 500;
-	margin-bottom: -15px;
+	line-height: 10px;
+	letter-spacing: 1px;
 }
 
 footer .contact-info ul li em {
@@ -784,14 +777,13 @@ footer .contact-info ul li em {
 	font-weight: 500;
 }
 
-footer .connect-us h3 {
-	margin-top: 0px;
-	font-size: 13px;
-	font-weight: 500;
+footer .connect-us h4 {
+	margin-top: 12px;
+	font-size: 18px;
+	font-weight: 600;
 	color: #fff;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	letter-spacing: 0.5px;
-	margin-bottom: 35px;
 }
 
 footer .connect-us ul li {
