@@ -883,6 +883,8 @@ footer .connect-us ul li a:hover {
 }
 
 	.align-self-center {
+	display: block;
+	margin: auto;
 	text-align: center
 	}
 	
