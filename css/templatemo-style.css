@@ -91,8 +91,8 @@ p {
 
 .navbar-nav>li>a {
 	color: #fff!important;
-	font-size: 18px;
-	font-weight: 1000;
+	font-size: 14px;
+	font-weight: 600;
 	text-transform: uppercase;
 	text-shadow: none;
 	line-height: 80px;
@@ -106,8 +106,8 @@ p {
 
 .header.active .navbar-nav>li>a {
 	font-family: 'Open Sans', arial, sans-serif;
-	font-size: 18px;
-	font-weight: 1000;
+	font-size: 13px;
+	font-weight: 800;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	text-shadow: none;
@@ -150,11 +150,11 @@ p {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #f7c552;
-    background-color: #f7c552;
+    border-color: #00C0ED;
+    background-color: #00C0ED;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #f7c552;
+	background-color: #00C0ED;
 }
 bootstrap.min.css:5
 .navbar-toggle {
@@ -200,7 +200,7 @@ bootstrap.min.css:5
 
 .baner-content {
 	width: 100%;
-  	padding-top: 35vh;
+  	padding-top: 36vh;
   	text-align: center;
   	background-image: url(../img/banner_bg.jpg);
   	vertical-align: middle;
@@ -220,6 +220,7 @@ bootstrap.min.css:5
 .baner-content .text-content h2 {
 	font-size: 36px;
 	font-weight: 400;
+	margin-bottom: auto;
 	color: #fff;
 }
 
@@ -248,7 +249,7 @@ bootstrap.min.css:5
 }
 
 #about {
-	padding: 150px 0px;
+	padding: 80px 0px;
 	background-image: url(../img/about-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -287,8 +288,12 @@ bootstrap.min.css:5
 
 #about .service-item p {
 	color: #fff;
-	margin-top: 30px;
-	line-height: 30px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+#about .service-item .primary-blue-button {
+	margin-top: 35px;
 }
 
 #about .service-text h3 {
@@ -303,7 +308,7 @@ bootstrap.min.css:5
 
 #about .service-text h4 {
 	text-align: justify;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 	line-height: 28px;
 	font-size: 20px;
 	font-weight: 500;
@@ -323,11 +328,12 @@ bootstrap.min.css:5
 }
 
 .filter-categories {;
-  margin-top: 60px;
+  margin-top: 30px;
+  padding-bottom: 80px;
 }
 
 .filter-categories ul li {
-  margin: 10px 0px 10px 0px;
+  margin: 6px 0px 6px 0px;
   display: block;
 }
 
@@ -350,10 +356,10 @@ bootstrap.min.css:5
 }
 
 #portfolio .section-heading {
-	padding-top: 80px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 	background-color: #241F59;
-	height: 732px;
+	height: 760px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 }
@@ -395,7 +401,7 @@ bootstrap.min.css:5
 }
 
 .col-md-8 {
-	max-height: 732px;
+	max-height: 760px;
 	max-width: 100%;
     overflow: auto;
 	background-color: #fff;
@@ -825,10 +831,10 @@ footer .connect-us ul li a:hover {
 
 	#portfolio .section-heading {
 		text-align: center;
-		padding-top: 100px;
+		padding-top:60px;
 		padding-bottom: 100px;
 		background-color: #241F59;
-		height: 505px;
+		height: 555px;
 		margin-left: -15px;
 		padding-left: 0vh;
 		margin-right: -15px;
@@ -846,11 +852,7 @@ footer .connect-us ul li a:hover {
 
 	.projects-holder {
 		text-align: center;
-		padding: 15px 0px;
-	}
-
-	#portfolio .project-item {
-		margin: 15px 0px;
+		overflow: hidden;
 	}
 
 	#blog .section-heading {
@@ -880,10 +882,13 @@ footer .connect-us ul li a:hover {
 	#first-tab-group {
 		margin-bottom: 30px;
 	}
-
-	#contact-us .section-heading p {
-		padding: 0px 10%;
+	#contact-us .section-heading h4 {
+		padding: 0px 5%;
 	}
+
+	#contact-us .pop-button {
+	margin-bottom: 30px;
+}
 
 	footer {
 		text-align: center;
