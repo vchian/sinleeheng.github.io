@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#28285B;}
+	.st1{fill:#00B9EB;}
+@media (prefers-color-scheme: dark) {
+     .a { fill: #f0f0f0 }
+    }
+</style>
+<path fill="#0f0f0f" d="…" />
+<path class="a" fill="#0f0f0f" d="…" />
+<g>
+	<polygon class="st0" points="111.65,84.37 140.01,51.18 140.01,210.24 185.65,255.19 142.77,297.37 142.77,450.21 112,419.43 
+		112,284.92 140.7,255.88 111.65,228.22 	"/>
+	<rect x="221.72" class="st1" width="76.07" height="476.49"/>
+	<polygon class="st0" points="156.03,33.89 183.69,3.46 183.69,190.87 246.62,250.69 183.69,318.12 183.69,500 156.03,468.88 
+		156.03,304.29 201.32,257.95 156.03,208.16 	"/>
+	<polygon class="st0" points="201.32,0 232.1,0 228.64,468.19 297.8,468.19 297.8,500 201.32,500 	"/>
+	<polygon class="st0" points="388.35,84.37 359.99,51.18 359.99,210.24 314.35,255.19 357.23,297.37 357.23,450.21 388,419.43 
+		388,284.92 359.3,255.88 388.35,228.22 	"/>
+	<polygon class="st0" points="344.34,33.89 316.68,3.46 316.68,190.87 253.75,250.69 316.68,318.12 316.68,500 344.34,468.88 
+		344.34,304.29 299.05,257.95 344.34,208.16 	"/>
+</g>
+</svg>
