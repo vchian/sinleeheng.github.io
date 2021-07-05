@@ -7,11 +7,25 @@
         <title>Sin Lee Heng Iron Works Awning Pte Ltd 新利兴铁厂篷业</title>
         <meta name="description" content="We specialise in all kind of awning, fencing, grating, main gate, railing, roofing and wrought iron grill works.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/jpg" href="/favicon.ico"/>
+        
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-        
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="manifest" href="/manifest.webmanifest">
+        <link rel="icon" href="/favicon.ico">
+		<link rel="icon" href="/icon.svg" type="image/svg+xml">
+		<link rel="icon" href="<%=
+       process.env.NODE_ENV === 'production'
+         ? '/favicon.ico'
+         : require('./favicon-dev.ico').default
+     %>">
+      <link rel="icon" type="image/svg+xml" href="<%=
+       require('./icon.svg').default+       process.env.NODE_ENV === 'production'
+         ? require('./icon.svg').default
+         : require('./icon-dev.svg').default
+      %>">
+        <link rel="apple-touch-icon" href="<%=
+        require('./apple-touch-icon.png').default
+      %>">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
