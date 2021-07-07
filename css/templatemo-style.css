@@ -575,7 +575,7 @@ bootstrap.min.css:5
 #contact-us {
 	background-color: #00BEED;
 	text-align: center;
-	padding: 80px 0px;
+	padding: 60px 0px;
 }
 
 #contact-us .section-heading h2 {
@@ -604,6 +604,11 @@ bootstrap.min.css:5
 	margin-top: 30px;
 }
 
+#contact-us .col-lg-5 {
+	margin-bottom: 30px;
+    text-align: center;
+	}
+	
 #contact input {
   border-radius: 0px;
   padding-left: 15px;
@@ -874,6 +879,7 @@ footer .connect-us ul li a:hover {
 	#first-tab-group {
 		margin-bottom: 30px;
 	}
+	
 	#contact-us .section-heading h4 {
 		padding: 0px 5%;
 	}
@@ -882,11 +888,12 @@ footer .connect-us ul li a:hover {
 	margin-bottom: 30px;
 }
 
-	.align-self-center {
+	.col-lg-5 {
 	display: block;
 	margin: auto;
     text-align: center;
 	}
+	
 	
 	footer {
 		text-align: center;
