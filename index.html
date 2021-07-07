@@ -10,23 +10,10 @@
         
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-		<link rel="manifest" href="/manifest.webmanifest">
-        <link rel="icon" href="/favicon.ico">
-		<link rel="icon" href="/icon.svg" type="image/svg+xml">
-		<link rel="icon" href="<%=
-       process.env.NODE_ENV === 'production'
-         ? '/favicon.ico'
-         : require('./favicon-dev.ico').default
-     %>">
-      <link rel="icon" type="image/svg+xml" href="<%=
-       require('./icon.svg').default+       process.env.NODE_ENV === 'production'
-         ? require('./icon.svg').default
-         : require('./icon-dev.svg').default
-      %>">
-        <link rel="apple-touch-icon" href="<%=
-        require('./apple-touch-icon.png').default
-      %>">
-
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/all.css">
